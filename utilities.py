@@ -69,8 +69,8 @@ class utilities:
         positions = nx.fruchterman_reingold_layout(graph, dim=2)
         colors = nx.get_node_attributes(graph, "color")
         # Use Matplotlib for the Graphics
-        # if cls.fig is None:
-        cls.fig = plt.figure()
+        if cls.fig is None:
+            cls.fig = plt.figure()
         ax = cls.fig.add_subplot(111)
         for node in graph.nodes:
             ax.scatter(*positions[node].T, s=100, ec="w", color=colors[node])
