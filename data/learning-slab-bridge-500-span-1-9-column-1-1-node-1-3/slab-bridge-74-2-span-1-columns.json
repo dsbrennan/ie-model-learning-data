@@ -1,0 +1,958 @@
+{
+    "version": "1.1.0",
+    "name": "slab-bridge-74-2-span-1-columns",
+    "description": "2 Spans, 1 Columns, 185 Width, 440 Height\r\nDeck Material: metal -> ferrousAlloy\r\nColumn Material: metal -> copperAlloy",
+    "population": "learning-slab-bridge-500-span-1-9-column-1-1-node-1-3",
+    "timestamp": 1657807986594324000,
+    "models": {
+        "irreducibleElement": {
+            "type": "grounded",
+            "elements": [
+                {
+                    "name": "left-ground",
+                    "type": "ground"
+                },
+                {
+                    "name": "deck-1-1",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    },
+                    "material": {
+                        "type": {
+                            "name": "metal",
+                            "type": {
+                                "name": "ferrousAlloy"
+                            }
+                        }
+                    },
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 0
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 440
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 0
+                                }
+                            }
+                        }
+                    },
+                    "geometry": {
+                        "type": {
+                            "name": "solid",
+                            "type": {
+                                "name": "translate",
+                                "type": {
+                                    "name": "cuboid"
+                                }
+                            }
+                        },
+                        "dimensions": {
+                            "length": {
+                                "axis": "x",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 3910
+                            },
+                            "width": {
+                                "axis": "z",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 185
+                            },
+                            "height": {
+                                "axis": "y",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "deck-1-2",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    },
+                    "material": {
+                        "type": {
+                            "name": "metal",
+                            "type": {
+                                "name": "ferrousAlloy"
+                            }
+                        }
+                    },
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 3910
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 440
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 0
+                                }
+                            }
+                        }
+                    },
+                    "geometry": {
+                        "type": {
+                            "name": "solid",
+                            "type": {
+                                "name": "translate",
+                                "type": {
+                                    "name": "cuboid"
+                                }
+                            }
+                        },
+                        "dimensions": {
+                            "length": {
+                                "axis": "x",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 561
+                            },
+                            "width": {
+                                "axis": "z",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 185
+                            },
+                            "height": {
+                                "axis": "y",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "column-1-1",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "column"
+                    },
+                    "material": {
+                        "type": {
+                            "name": "metal",
+                            "type": {
+                                "name": "copperAlloy"
+                            }
+                        }
+                    },
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 4466.5
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 0
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 88.0
+                                }
+                            }
+                        }
+                    },
+                    "geometry": {
+                        "type": {
+                            "name": "solid",
+                            "type": {
+                                "name": "translate",
+                                "type": {
+                                    "name": "cuboid"
+                                }
+                            }
+                        },
+                        "dimensions": {
+                            "length": {
+                                "axis": "x",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 9
+                            },
+                            "width": {
+                                "axis": "z",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 9
+                            },
+                            "height": {
+                                "axis": "y",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 440
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "column-ground-1-1",
+                    "type": "ground"
+                },
+                {
+                    "name": "deck-2-1",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    },
+                    "material": {
+                        "type": {
+                            "name": "metal",
+                            "type": {
+                                "name": "ferrousAlloy"
+                            }
+                        }
+                    },
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 4471
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 440
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 0
+                                }
+                            }
+                        }
+                    },
+                    "geometry": {
+                        "type": {
+                            "name": "solid",
+                            "type": {
+                                "name": "translate",
+                                "type": {
+                                    "name": "cuboid"
+                                }
+                            }
+                        },
+                        "dimensions": {
+                            "length": {
+                                "axis": "x",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 22
+                            },
+                            "width": {
+                                "axis": "z",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 185
+                            },
+                            "height": {
+                                "axis": "y",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "deck-2-2",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    },
+                    "material": {
+                        "type": {
+                            "name": "metal",
+                            "type": {
+                                "name": "ferrousAlloy"
+                            }
+                        }
+                    },
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 4493
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 440
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 0
+                                }
+                            }
+                        }
+                    },
+                    "geometry": {
+                        "type": {
+                            "name": "solid",
+                            "type": {
+                                "name": "translate",
+                                "type": {
+                                    "name": "cuboid"
+                                }
+                            }
+                        },
+                        "dimensions": {
+                            "length": {
+                                "axis": "x",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 2193
+                            },
+                            "width": {
+                                "axis": "z",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 185
+                            },
+                            "height": {
+                                "axis": "y",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "deck-2-3",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    },
+                    "material": {
+                        "type": {
+                            "name": "metal",
+                            "type": {
+                                "name": "ferrousAlloy"
+                            }
+                        }
+                    },
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 6686
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 440
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 0
+                                }
+                            }
+                        }
+                    },
+                    "geometry": {
+                        "type": {
+                            "name": "solid",
+                            "type": {
+                                "name": "translate",
+                                "type": {
+                                    "name": "cuboid"
+                                }
+                            }
+                        },
+                        "dimensions": {
+                            "length": {
+                                "axis": "x",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 1657
+                            },
+                            "width": {
+                                "axis": "z",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 185
+                            },
+                            "height": {
+                                "axis": "y",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "column-2-1",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "column"
+                    },
+                    "material": {
+                        "type": {
+                            "name": "metal",
+                            "type": {
+                                "name": "copperAlloy"
+                            }
+                        }
+                    },
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 8325.5
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 0
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 75.0
+                                }
+                            }
+                        }
+                    },
+                    "geometry": {
+                        "type": {
+                            "name": "solid",
+                            "type": {
+                                "name": "translate",
+                                "type": {
+                                    "name": "cuboid"
+                                }
+                            }
+                        },
+                        "dimensions": {
+                            "length": {
+                                "axis": "x",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 35
+                            },
+                            "width": {
+                                "axis": "z",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 35
+                            },
+                            "height": {
+                                "axis": "y",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 440
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "column-ground-2-1",
+                    "type": "ground"
+                },
+                {
+                    "name": "deck-3-1",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    },
+                    "material": {
+                        "type": {
+                            "name": "metal",
+                            "type": {
+                                "name": "ferrousAlloy"
+                            }
+                        }
+                    },
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 8343
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 440
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 0
+                                }
+                            }
+                        }
+                    },
+                    "geometry": {
+                        "type": {
+                            "name": "solid",
+                            "type": {
+                                "name": "translate",
+                                "type": {
+                                    "name": "cuboid"
+                                }
+                            }
+                        },
+                        "dimensions": {
+                            "length": {
+                                "axis": "x",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 1458
+                            },
+                            "width": {
+                                "axis": "z",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 185
+                            },
+                            "height": {
+                                "axis": "y",
+                                "source": "nominal",
+                                "unit": "other",
+                                "value": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "right-ground",
+                    "type": "ground"
+                }
+            ],
+            "relationships": [
+                {
+                    "name": "left-ground-deck-1",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "left-ground"
+                        },
+                        {
+                            "name": "deck-1-1"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-1-1-deck-1-2",
+                    "type": "perfect",
+                    "elements": [
+                        {
+                            "name": "deck-1-1"
+                        },
+                        {
+                            "name": "deck-1-2"
+                        }
+                    ],
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 3910
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 440
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 92.5
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "deck-1-2-column-1-1",
+                    "type": "joint",
+                    "nature": {
+                        "name": "static",
+                        "nature": {
+                            "name": "other"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "name": "deck-1-2",
+                            "coordinates": {
+                                "global": {
+                                    "translational": {
+                                        "x": {
+                                            "unit": "other",
+                                            "value": 4471
+                                        },
+                                        "y": {
+                                            "unit": "other",
+                                            "value": 440
+                                        },
+                                        "z": {
+                                            "unit": "other",
+                                            "value": 92.5
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "column-1-1",
+                            "coordinates": {
+                                "global": {
+                                    "translational": {
+                                        "x": {
+                                            "unit": "other",
+                                            "value": 4471
+                                        },
+                                        "y": {
+                                            "unit": "other",
+                                            "value": 440
+                                        },
+                                        "z": {
+                                            "unit": "other",
+                                            "value": 92.5
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "column-1-1-deck-2-1",
+                    "type": "joint",
+                    "nature": {
+                        "name": "static",
+                        "nature": {
+                            "name": "other"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "name": "column-1-1",
+                            "coordinates": {
+                                "global": {
+                                    "translational": {
+                                        "x": {
+                                            "unit": "other",
+                                            "value": 4471
+                                        },
+                                        "y": {
+                                            "unit": "other",
+                                            "value": 440
+                                        },
+                                        "z": {
+                                            "unit": "other",
+                                            "value": 92.5
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "deck-2-1",
+                            "coordinates": {
+                                "global": {
+                                    "translational": {
+                                        "x": {
+                                            "unit": "other",
+                                            "value": 4471
+                                        },
+                                        "y": {
+                                            "unit": "other",
+                                            "value": 440
+                                        },
+                                        "z": {
+                                            "unit": "other",
+                                            "value": 92.5
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "column-1-1-column-ground-1-1",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "column-1-1"
+                        },
+                        {
+                            "name": "column-ground-1-1"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-1-2-deck-2-1",
+                    "type": "perfect",
+                    "elements": [
+                        {
+                            "name": "deck-1-2"
+                        },
+                        {
+                            "name": "deck-2-1"
+                        }
+                    ],
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 4471
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 440
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 92.5
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "deck-2-1-deck-2-2",
+                    "type": "perfect",
+                    "elements": [
+                        {
+                            "name": "deck-2-1"
+                        },
+                        {
+                            "name": "deck-2-2"
+                        }
+                    ],
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 4493
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 440
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 92.5
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "deck-2-2-deck-2-3",
+                    "type": "perfect",
+                    "elements": [
+                        {
+                            "name": "deck-2-2"
+                        },
+                        {
+                            "name": "deck-2-3"
+                        }
+                    ],
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 6686
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 440
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 92.5
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "deck-2-3-column-2-1",
+                    "type": "joint",
+                    "nature": {
+                        "name": "static",
+                        "nature": {
+                            "name": "other"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "name": "deck-2-3",
+                            "coordinates": {
+                                "global": {
+                                    "translational": {
+                                        "x": {
+                                            "unit": "other",
+                                            "value": 8343
+                                        },
+                                        "y": {
+                                            "unit": "other",
+                                            "value": 440
+                                        },
+                                        "z": {
+                                            "unit": "other",
+                                            "value": 92.5
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "column-2-1",
+                            "coordinates": {
+                                "global": {
+                                    "translational": {
+                                        "x": {
+                                            "unit": "other",
+                                            "value": 8343
+                                        },
+                                        "y": {
+                                            "unit": "other",
+                                            "value": 440
+                                        },
+                                        "z": {
+                                            "unit": "other",
+                                            "value": 92.5
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "column-2-1-deck-3-1",
+                    "type": "joint",
+                    "nature": {
+                        "name": "static",
+                        "nature": {
+                            "name": "other"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "name": "column-2-1",
+                            "coordinates": {
+                                "global": {
+                                    "translational": {
+                                        "x": {
+                                            "unit": "other",
+                                            "value": 8343
+                                        },
+                                        "y": {
+                                            "unit": "other",
+                                            "value": 440
+                                        },
+                                        "z": {
+                                            "unit": "other",
+                                            "value": 92.5
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "deck-3-1",
+                            "coordinates": {
+                                "global": {
+                                    "translational": {
+                                        "x": {
+                                            "unit": "other",
+                                            "value": 8343
+                                        },
+                                        "y": {
+                                            "unit": "other",
+                                            "value": 440
+                                        },
+                                        "z": {
+                                            "unit": "other",
+                                            "value": 92.5
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "column-2-1-column-ground-2-1",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "column-2-1"
+                        },
+                        {
+                            "name": "column-ground-2-1"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-2-3-deck-3-1",
+                    "type": "perfect",
+                    "elements": [
+                        {
+                            "name": "deck-2-3"
+                        },
+                        {
+                            "name": "deck-3-1"
+                        }
+                    ],
+                    "coordinates": {
+                        "global": {
+                            "translational": {
+                                "x": {
+                                    "unit": "other",
+                                    "value": 8343
+                                },
+                                "y": {
+                                    "unit": "other",
+                                    "value": 440
+                                },
+                                "z": {
+                                    "unit": "other",
+                                    "value": 92.5
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "deck-3-1-right-ground",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "deck-3-1"
+                        },
+                        {
+                            "name": "right-ground"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
