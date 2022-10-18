@@ -1,0 +1,276 @@
+{
+    "version": "1.1.0",
+    "name": "slab-bridge-canonical-form-4-span-1-column",
+    "description": "Slab Bridge Canonical Form - 4 span",
+    "population": "learning-slab-bridge-canonical-form-span-1-9-column-1-1",
+    "timestamp": 1666089466361243000,
+    "models": {
+        "irreducibleElement": {
+            "type": "grounded",
+            "elements": [
+                {
+                    "name": "left-ground",
+                    "type": "ground"
+                },
+                {
+                    "name": "deck-1",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    }
+                },
+                {
+                    "name": "column-1",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "column"
+                    }
+                },
+                {
+                    "name": "column-ground-1",
+                    "type": "ground"
+                },
+                {
+                    "name": "deck-2",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    }
+                },
+                {
+                    "name": "column-2",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "column"
+                    }
+                },
+                {
+                    "name": "column-ground-2",
+                    "type": "ground"
+                },
+                {
+                    "name": "deck-3",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    }
+                },
+                {
+                    "name": "column-3",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "column"
+                    }
+                },
+                {
+                    "name": "column-ground-3",
+                    "type": "ground"
+                },
+                {
+                    "name": "deck-4",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    }
+                },
+                {
+                    "name": "column-4",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "column"
+                    }
+                },
+                {
+                    "name": "column-ground-4",
+                    "type": "ground"
+                },
+                {
+                    "name": "right-ground",
+                    "type": "ground"
+                }
+            ],
+            "relationships": [
+                {
+                    "name": "left-ground-deck-1",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "left-ground"
+                        },
+                        {
+                            "name": "deck-1"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-1-column-1",
+                    "type": "joint",
+                    "nature": {
+                        "name": "static",
+                        "nature": {
+                            "name": "other"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "name": "deck-1"
+                        },
+                        {
+                            "name": "column-1"
+                        }
+                    ]
+                },
+                {
+                    "name": "column-1-column-ground-1",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "column-1"
+                        },
+                        {
+                            "name": "column-ground-1"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-1-deck-2",
+                    "type": "perfect",
+                    "elements": [
+                        {
+                            "name": "deck-1"
+                        },
+                        {
+                            "name": "deck-2"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-2-column-2",
+                    "type": "joint",
+                    "nature": {
+                        "name": "static",
+                        "nature": {
+                            "name": "other"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "name": "deck-2"
+                        },
+                        {
+                            "name": "column-2"
+                        }
+                    ]
+                },
+                {
+                    "name": "column-2-column-ground-2",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "column-2"
+                        },
+                        {
+                            "name": "column-ground-2"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-2-deck-3",
+                    "type": "perfect",
+                    "elements": [
+                        {
+                            "name": "deck-2"
+                        },
+                        {
+                            "name": "deck-3"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-3-column-3",
+                    "type": "joint",
+                    "nature": {
+                        "name": "static",
+                        "nature": {
+                            "name": "other"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "name": "deck-3"
+                        },
+                        {
+                            "name": "column-3"
+                        }
+                    ]
+                },
+                {
+                    "name": "column-3-column-ground-3",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "column-3"
+                        },
+                        {
+                            "name": "column-ground-3"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-3-deck-4",
+                    "type": "perfect",
+                    "elements": [
+                        {
+                            "name": "deck-3"
+                        },
+                        {
+                            "name": "deck-4"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-4-column-4",
+                    "type": "joint",
+                    "nature": {
+                        "name": "static",
+                        "nature": {
+                            "name": "other"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "name": "deck-4"
+                        },
+                        {
+                            "name": "column-4"
+                        }
+                    ]
+                },
+                {
+                    "name": "column-4-column-ground-4",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "column-4"
+                        },
+                        {
+                            "name": "column-ground-4"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-4-right-ground",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "deck-4"
+                        },
+                        {
+                            "name": "right-ground"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
