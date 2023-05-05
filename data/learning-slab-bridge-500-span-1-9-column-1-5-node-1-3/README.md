@@ -16,7 +16,7 @@ The following code was used to generate this dataset.
 
 ```
 from generate_bridge_slab import generate
-from utilities import utilities as utils
+from iegentool.utilities import utilities as utils
 
 # Generate 500 Population of simple slab bridges
 utils.population = "learning-slab-bridge-500-span-1-9-column-1-5-node-1-3"
