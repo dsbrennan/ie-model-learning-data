@@ -1,6 +1,6 @@
 import random as rnd
 import math as m
-from utilities import utilities as utils
+from iegentool.utilities import utilities as utils
 
 
 def generate(

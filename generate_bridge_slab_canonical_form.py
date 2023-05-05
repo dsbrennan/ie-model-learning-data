@@ -1,4 +1,4 @@
-from utilities import utilities as utils
+from iegentool.utilities import utilities as utils
 
 
 def generate(
