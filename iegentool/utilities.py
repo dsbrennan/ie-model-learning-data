@@ -131,7 +131,7 @@ class utilities:
         cls.fig.clear()
 
     @classmethod
-    def generate_document_and_save(cls: type, name: str, description: str, elements: list, relationships: list) -> None:
+    def generate_document_and_save(cls: type, name: str, description: str, elements: list, relationships: list, model_type: str = "grounded") -> None:
         """Generate PBSHM Schema Document and Save to file system
 
         name: the name of the IE model
@@ -150,7 +150,7 @@ class utilities:
             "timestamp": utilities.datetime_to_nanoseconds_since_epoch(dt.now()),
             "models": {
                 "irreducibleElement": {
-                    "type": "grounded",
+                    "type": model_type,
                     "elements": elements,
                     "relationships": relationships
                 }
