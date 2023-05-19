@@ -8,5 +8,5 @@ Each dataset has its own README file which outlines what the dataset contains an
 | ---- | ----------------- |
 | [learning-slab-bridge-500-span-1-9-column-1-1-node-1-3](/data/learning-slab-bridge-500-span-1-9-column-1-1-node-1-3/README.md) | Simple beam and slab bridges with 1-9 spans, 1-3 nodes per span and 1-1 columns. |
 | [learning-slab-bridge-500-span-1-9-column-1-5-node-1-3](/data/learning-slab-bridge-500-span-1-9-column-1-5-node-1-3/README.md) | Simple beam and slab bridges with 1-9 spans, 1-3 nodes per span and 1-5 columns. |
-| [learning-slab-bridge-canonical-form-span-1-9-column-1-1](/learning-slab-bridge-canonical-form-span-1-9-column-1-1/README.md) | Canonical Form version of the simple beam and slab bridges with 1-9 spans and 1-1 columns. |
+| [learning-slab-bridge-canonical-form-span-1-9-column-1-1](/data/learning-slab-bridge-canonical-form-span-1-9-column-1-1/README.md) | Canonical Form version of the simple beam and slab bridges with 1-9 spans and 1-1 columns. |
 | [learning-slab-bridge-interim-canonical-form-span-1-9-column-1-1](/data/learning-slab-bridge-interim-canonical-form-span-1-9-column-1-1/README.md) | Interim Canonical Form version of the simple beam and slab bridges with 1-9 spans and 1-1 columns. |
