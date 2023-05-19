@@ -7,7 +7,7 @@
 ## Generation
 The following code was used to generate this dataset.
 
-```
+```python
 from generate_bridge_slab_interim_canonical_form import generate
 from iegentool.utilities import utilities as utils
 
