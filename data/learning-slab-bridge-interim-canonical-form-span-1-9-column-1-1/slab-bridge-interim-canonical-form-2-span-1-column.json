@@ -1,0 +1,194 @@
+{
+    "version": "1.1.0",
+    "name": "slab-bridge-interim-canonical-form-2-span-1-column",
+    "description": "Slab Bridge Interim Canonical Form - 2 span",
+    "population": "learning-slab-bridge-interim-canonical-form-span-1-9-column-1-1",
+    "timestamp": 1684506798401714000,
+    "models": {
+        "irreducibleElement": {
+            "type": "grounded",
+            "elements": [
+                {
+                    "name": "left-ground",
+                    "type": "ground"
+                },
+                {
+                    "name": "deck-0",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    }
+                },
+                {
+                    "name": "deck-1",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    }
+                },
+                {
+                    "name": "column-1",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "column"
+                    }
+                },
+                {
+                    "name": "column-ground-1",
+                    "type": "ground"
+                },
+                {
+                    "name": "deck-2",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    }
+                },
+                {
+                    "name": "column-2",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "column"
+                    }
+                },
+                {
+                    "name": "column-ground-2",
+                    "type": "ground"
+                },
+                {
+                    "name": "deck-3",
+                    "type": "regular",
+                    "contextual": {
+                        "type": "deck"
+                    }
+                },
+                {
+                    "name": "right-ground",
+                    "type": "ground"
+                }
+            ],
+            "relationships": [
+                {
+                    "name": "left-ground-deck-0",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "left-ground"
+                        },
+                        {
+                            "name": "deck-0"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-0-deck-1",
+                    "type": "perfect",
+                    "elements": [
+                        {
+                            "name": "deck-0"
+                        },
+                        {
+                            "name": "deck-1"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-1-column-1",
+                    "type": "joint",
+                    "nature": {
+                        "name": "static",
+                        "nature": {
+                            "name": "other"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "name": "deck-1"
+                        },
+                        {
+                            "name": "column-1"
+                        }
+                    ]
+                },
+                {
+                    "name": "column-1-column-ground-1",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "column-1"
+                        },
+                        {
+                            "name": "column-ground-1"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-1-deck-2",
+                    "type": "perfect",
+                    "elements": [
+                        {
+                            "name": "deck-1"
+                        },
+                        {
+                            "name": "deck-2"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-2-column-2",
+                    "type": "joint",
+                    "nature": {
+                        "name": "static",
+                        "nature": {
+                            "name": "other"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "name": "deck-2"
+                        },
+                        {
+                            "name": "column-2"
+                        }
+                    ]
+                },
+                {
+                    "name": "column-2-column-ground-2",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "column-2"
+                        },
+                        {
+                            "name": "column-ground-2"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-2-deck-3",
+                    "type": "perfect",
+                    "elements": [
+                        {
+                            "name": "deck-2"
+                        },
+                        {
+                            "name": "deck-3"
+                        }
+                    ]
+                },
+                {
+                    "name": "deck-3-right-ground",
+                    "type": "boundary",
+                    "elements": [
+                        {
+                            "name": "deck-3"
+                        },
+                        {
+                            "name": "right-ground"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
